@@ -393,32 +393,40 @@
 //   return number.toString();
 // }
 // console.log(convertToString(143.88))
-let tasks = [];
+// let tasks = [];
 
-function renderTasks() {
-  const taskContainer = document.getElementById("tasks");
-  taskContainer.innerHTML = "";
-  tasks.forEach((task, index) => {
-    taskContainer.innerHTML += `
-        <div class="task">
-            <p>${task}</p>
-            <div>
-                <button onclick="deleteTask(${index})">حذف</button>
-            </div>
-        </div>`;
-  });
+// function renderTasks() {
+//   const taskContainer = document.getElementById("tasks");
+//   taskContainer.innerHTML = "";
+//   tasks.forEach((task, index) => {
+//     taskContainer.innerHTML += `
+//         <div class="task">
+//             <p>${task}</p>
+//             <div>
+//                 <button onclick="deleteTask(${index})">حذف</button>
+//             </div>
+//         </div>`;
+//   });
+// }
+
+// document.getElementById("add-task-btn").onclick = () => {
+//   let taskInput = document.getElementById("task-input").value;
+//   if (taskInput.trim() === "") return;
+
+//   tasks.push(taskInput);
+//   document.getElementById("task-input").value = "";
+//   renderTasks();
+// };
+
+// function deleteTask(index) {
+//   tasks.splice(index, 1);
+//   renderTasks();
+// }
+
+function numberOne(value) {
+  let num = parseFloat(value);
+  return isNaN(num) ? NaN : num;
 }
+console.log(numberOne("145"));
+console.log(numberOne("wedad"));
 
-document.getElementById("add-task-btn").onclick = () => {
-  let taskInput = document.getElementById("task-input").value;
-  if (taskInput.trim() === "") return;
-
-  tasks.push(taskInput);
-  document.getElementById("task-input").value = "";
-  renderTasks();
-};
-
-function deleteTask(index) {
-  tasks.splice(index, 1);
-  renderTasks();
-}
