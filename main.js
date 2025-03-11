@@ -422,7 +422,7 @@
 //   tasks.splice(index, 1);
 //   renderTasks();
 // }
-
+//**Number()بتحول القيمه اللي رقم */
 function numberOne(value) {
   let num = parseFloat(value);
   return isNaN(num) ? NaN : num;
@@ -430,3 +430,8 @@ function numberOne(value) {
 console.log(numberOne("145"));
 console.log(numberOne("wedad"));
 
+//** to string*/
+function numberToString(number){
+  return number+"";
+}
+console.log(numberToString(400));
