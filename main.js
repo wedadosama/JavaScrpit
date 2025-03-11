@@ -435,3 +435,8 @@ function numberToString(number){
   return number+"";
 }
 console.log(numberToString(400));
+//**to fixed  */
+function myFixedTO(num,afterPoint){
+  return num.toFixed(afterPoint);
+}
+console.log(myFixedTO(55.7677,3))
