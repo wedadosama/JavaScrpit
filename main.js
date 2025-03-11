@@ -439,9 +439,14 @@ console.log(numberToString(400));
 function myFixedTO(num,afterPoint){
   return num.toFixed(afterPoint);
 }
-console.log(myFixedTO(55.7677,3))
+console.log(myFixedTO(55.7677,3));
 //**math.max*/
 function myMax (a,w){
   return a > w ? a: w;
 }
-console.log(myMax(16,89))
+console.log(myMax(16,89));
+//**Math.min() */
+function myMin(s,t){
+  return s < t ? s : t;
+}
+console.log(myMin(15,5));
