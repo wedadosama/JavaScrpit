@@ -431,22 +431,26 @@ console.log(numberOne("145"));
 console.log(numberOne("wedad"));
 
 //** to string*/
-function numberToString(number){
-  return number+"";
+function numberToString(number) {
+  return number + "";
 }
 console.log(numberToString(400));
 //**to fixed  */
-function myFixedTO(num,afterPoint){
+function myFixedTO(num, afterPoint) {
   return num.toFixed(afterPoint);
 }
-console.log(myFixedTO(55.7677,3));
+console.log(myFixedTO(55.7677, 3));
 //**math.max*/
-function myMax (a,w){
-  return a > w ? a: w;
+function myMax(a, w) {
+  return a > w ? a : w;
 }
-console.log(myMax(16,89));
+console.log(myMax(16, 89));
 //**Math.min() */
-function myMin(s,t){
+function myMin(s, t) {
   return s < t ? s : t;
 }
-console.log(myMin(15,5));
+console.log(myMin(15, 5));
+//**push */
+let numbers = [1, 2, 3, 4];
+numbers[numbers.length] = 5;
+console.log(numbers);
