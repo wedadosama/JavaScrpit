@@ -658,9 +658,22 @@ Math.tan(Math.toRadians(60));
 
 // convertToUpperCase("wedad");
 
-//** pop() */
+// //** pop() */
 
-let arr = [10, 20, 30, 40];
-let lastString = arr[arr.length - 1];
-arr.length--;
-console.log(arr);
+// let arr = [10, 20, 30, 40];
+// let lastString = arr[arr.length - 1];
+// arr.length--;
+// console.log(arr);
+ 
+
+
+
+//** shift */
+let array  = [10, 20, 30, 40];
+let firstString =array[0]
+for(i=0; i< array.length-1; i++){
+  array[i]=array[i +1]
+
+}
+array.length--
+console.log(array)
