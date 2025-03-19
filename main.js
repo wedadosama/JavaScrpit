@@ -499,38 +499,32 @@ function trimString(string) {
     }
   }
   return newString;
-};
-console.log(trimString(    "wedad      "));
+}
+console.log(trimString("wedad      "));
 
-
-
-
-function stringTrimStart(string){
-  let newString="";
-  let isTrue =false;
-  for( let i=0; i<string.length;i++){
-    if(string[i] ===" " && isTrue ===false){
+function stringTrimStart(string) {
+  let newString = "";
+  let isTrue = false;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === " " && isTrue === false) {
       continue;
-    }else{
-      newString+=string[i];
+    } else {
+      newString += string[i];
     }
   }
   return newString;
 }
-console.log(stringTrimStart(    "         Hello        "    ));
+console.log(stringTrimStart("         Hello        "));
 
-
-
-function stringTrimEnd(string){
-  let lastIndex=string.length-1;
-  while(lastIndex >=0 && string[lastIndex]===" "){
+function stringTrimEnd(string) {
+  let lastIndex = string.length - 1;
+  while (lastIndex >= 0 && string[lastIndex] === " ") {
     lastIndex--;
-
   }
-  let newString ="";
-  for(let i=0;i<= lastIndex;i++){
-    newString+=string[i];
+  let newString = "";
+  for (let i = 0; i <= lastIndex; i++) {
+    newString += string[i];
   }
   return newString;
 }
-console.log(stringTrimEnd("      Dina      "))
+console.log(stringTrimEnd("      Dina      "));
