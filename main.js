@@ -592,68 +592,75 @@ Math.tan(Math.toRadians(60));
 
 // convertToLowerCase("WEDAD");
 
-function convertToUpperCase(string) {
-  let newString = "";
+// function convertToUpperCase(string) {
+//   let newString = "";
 
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] == "a") {
-      newString += "A";
-    } else if (string[i] == "b") {
-      newString += "B";
-    } else if (string[i] == "c") {
-      newString += "C";
-    } else if (string[i] == "d") {
-      newString += "D";
-    } else if (string[i] == "e") {
-      newString += "E";
-    } else if (string[i] == "f") {
-      newString += "F";
-    } else if (string[i] == "g") {
-      newString += "G";
-    } else if (string[i] == "h") {
-      newString += "H";
-    } else if (string[i] == "i") {
-      newString += "I";
-    } else if (string[i] == "j") {
-      newString += "J";
-    } else if (string[i] == "k") {
-      newString += "K";
-    } else if (string[i] == "l") {
-      newString += "L";
-    } else if (string[i] == "m") {
-      newString += "M";
-    } else if (string[i] == "n") {
-      newString += "N";
-    } else if (string[i] == "o") {
-      newString += "O";
-    } else if (string[i] == "p") {
-      newString += "P";
-    } else if (string[i] == "q") {
-      newString += "Q";
-    } else if (string[i] == "r") {
-      newString += "R";
-    } else if (string[i] == "s") {
-      newString += "S";
-    } else if (string[i] == "t") {
-      newString += "T";
-    } else if (string[i] == "u") {
-      newString += "U";
-    } else if (string[i] == "v") {
-      newString += "V";
-    } else if (string[i] == "w") {
-      newString += "W";
-    } else if (string[i] == "x") {
-      newString += "X";
-    } else if (string[i] == "y") {
-      newString += "Y";
-    } else if (string[i] == "z") {
-      newString += "Z";
-    } else {
-      newString += string[i];
-    }
-  }
+//   for (let i = 0; i < string.length; i++) {
+//     if (string[i] == "a") {
+//       newString += "A";
+//     } else if (string[i] == "b") {
+//       newString += "B";
+//     } else if (string[i] == "c") {
+//       newString += "C";
+//     } else if (string[i] == "d") {
+//       newString += "D";
+//     } else if (string[i] == "e") {
+//       newString += "E";
+//     } else if (string[i] == "f") {
+//       newString += "F";
+//     } else if (string[i] == "g") {
+//       newString += "G";
+//     } else if (string[i] == "h") {
+//       newString += "H";
+//     } else if (string[i] == "i") {
+//       newString += "I";
+//     } else if (string[i] == "j") {
+//       newString += "J";
+//     } else if (string[i] == "k") {
+//       newString += "K";
+//     } else if (string[i] == "l") {
+//       newString += "L";
+//     } else if (string[i] == "m") {
+//       newString += "M";
+//     } else if (string[i] == "n") {
+//       newString += "N";
+//     } else if (string[i] == "o") {
+//       newString += "O";
+//     } else if (string[i] == "p") {
+//       newString += "P";
+//     } else if (string[i] == "q") {
+//       newString += "Q";
+//     } else if (string[i] == "r") {
+//       newString += "R";
+//     } else if (string[i] == "s") {
+//       newString += "S";
+//     } else if (string[i] == "t") {
+//       newString += "T";
+//     } else if (string[i] == "u") {
+//       newString += "U";
+//     } else if (string[i] == "v") {
+//       newString += "V";
+//     } else if (string[i] == "w") {
+//       newString += "W";
+//     } else if (string[i] == "x") {
+//       newString += "X";
+//     } else if (string[i] == "y") {
+//       newString += "Y";
+//     } else if (string[i] == "z") {
+//       newString += "Z";
+//     } else {
+//       newString += string[i];
+//     }
+//   }
 
-  console.log(newString);
-}
+//   console.log(newString);
+// }
 
-convertToUpperCase("wedad");
+// convertToUpperCase("wedad");
+
+//** pop() */
+
+let arr = [10, 20, 30, 40];
+let lastString = arr[arr.length - 1];
+arr.length--;
+console.log(arr);
