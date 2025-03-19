@@ -518,3 +518,19 @@ function stringTrimStart(string){
   return newString;
 }
 console.log(stringTrimStart(    "         Hello        "    ));
+
+
+
+function stringTrimEnd(string){
+  let lastIndex=string.length-1;
+  while(lastIndex >=0 && string[lastIndex]===" "){
+    lastIndex--;
+
+  }
+  let newString ="";
+  for(let i=0;i<= lastIndex;i++){
+    newString+=string[i];
+  }
+  return newString;
+}
+console.log(stringTrimEnd("      Dina      "))
