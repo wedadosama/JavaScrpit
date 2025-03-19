@@ -528,3 +528,68 @@ function stringTrimEnd(string) {
   return newString;
 }
 console.log(stringTrimEnd("      Dina      "));
+
+
+
+function convertToLowerCase(string){
+  let newString ="";
+  for (let i = 0; i < string.length; i++){
+    if (string[i] == "A"){
+      newString += string[i] = "a";
+    } else if (string[i] == "B"){
+      newString += string[i] = "b";
+    } else if (string[i] == "C"){
+      newString += string[i] = "c";
+    }else if (string[i] == "D"){
+      newString += string[i] = "d";
+    }else if (string[i] == "E"){
+      newString += string[i] = "e";
+    }else if (string[i] == "F"){
+      newString += string[i] = "f";
+    }else if (string[i] == "G"){
+      newString += string[i] = "g";
+    }else if (string[i] == "H"){
+      newString += string[i] = "h";
+    }else if (string[i] == "I"){
+      newString += string[i] = "i";
+    }else if (string[i] == "J"){
+      newString += string[i] = "j";
+    }else if (string[i] == "K"){
+      newString += string[i] = "k";
+    }else if (string[i] == "L"){
+      newString += string[i] = "l";
+    }else if (string[i] == "M"){
+      newString += string[i] = "m";
+    }else if (string[i] == "N"){
+      newString += string[i] = "n";
+    }else if (string[i] == "O"){
+      newString += string[i] = "o";
+    }else if (string[i] == "P"){
+      newString += string[i] = "p";
+    }else if (string[i] == "Q"){
+      newString += string[i] = "q";
+    }else if (string[i] == "R"){
+      newString += string[i] = "r";
+    }else if (string[i] == "S"){
+      newString += string[i] = "s";
+    }else if (string[i] == "T"){
+      newString += string[i] = "t";
+    }else if (string[i] == "U"){
+      newString += string[i] = "u";
+    }else if (string[i] == "V"){
+      newString += string[i] = "v";
+    }else if (string[i] == "W"){
+      newString += string[i] = "w";
+    }else if (string[i] == "X"){
+      newString += string[i] = "x";
+    }else if (string[i] == "Y"){
+      newString += string[i] = "y";
+    }else if (string[i] == "Z"){
+      newString += string[i] = "z";
+    }
+
+  }
+  console.log(newString);
+}
+
+convertToLowerCase("WEDAD");
