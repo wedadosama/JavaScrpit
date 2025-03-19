@@ -463,16 +463,12 @@ Math.tan(Math.toRadians(60));
 // // for (let i = 0; i < array.length; i++) {
 // //   if(array[i]===index)
 
-  
-
 // // }
 
-
-
 // /**
-//  * 
-//  * @param {...string} strings 
-//  * @returns {string} 
+//  *
+//  * @param {...string} strings
+//  * @returns {string}
 //  */
 
 //  function concat ( ...Strings){
@@ -485,7 +481,6 @@ Math.tan(Math.toRadians(60));
 
 //  console.log(concat ("wedad" ,"osama", "elkammash"));
 
-
 /**
 
  * @param {string} String 
@@ -496,14 +491,30 @@ Math.tan(Math.toRadians(60));
  * console.log(trimString("     wedad     "));
  */
 
- function trimString(string){
-  let newString ="";
-  for( let i =0; i<string.length; i++){
-    if(string[i] !== " "){
-      newString+= string[i];
+function trimString(string) {
+  let newString = "";
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] !== " ") {
+      newString += string[i];
     }
- 
   }
-  return newString
- }
- console.log(trimString(      "wedad"      ))
+  return newString;
+};
+console.log(trimString(    "wedad      "));
+
+
+
+
+function stringTrimStart(string){
+  let newString="";
+  let isTrue =false;
+  for( let i=0; i<string.length;i++){
+    if(string[i] ===" " && isTrue ===false){
+      continue;
+    }else{
+      newString+=string[i];
+    }
+  }
+  return newString;
+}
+console.log(stringTrimStart(    "         Hello        "    ));
