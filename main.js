@@ -422,65 +422,88 @@ Math.tan(Math.toRadians(60));
 //   tasks.splice(index, 1);
 //   renderTasks();
 // }
-//**Number()بتحول القيمه اللي رقم */
-function numberOne(value) {
-  let num = parseFloat(value);
-  return isNaN(num) ? NaN : num;
-}
-console.log(numberOne("145"));
-console.log(numberOne("wedad"));
+// //**Number()بتحول القيمه اللي رقم */
+// function numberOne(value) {
+//   let num = parseFloat(value);
+//   return isNaN(num) ? NaN : num;
+// }
+// console.log(numberOne("145"));
+// console.log(numberOne("wedad"));
 
-//** to string*/
-function numberToString(number) {
-  return number + "";
-}
-console.log(numberToString(400));
-//**to fixed  */
-function myFixedTO(num, afterPoint) {
-  return num.toFixed(afterPoint);
-}
-console.log(myFixedTO(55.7677, 3));
-//**math.max*/
-function myMax(a, w) {
-  return a > w ? a : w;
-}
-console.log(myMax(16, 89));
-//**Math.min() */
-function myMin(s, t) {
-  return s < t ? s : t;
-}
-console.log(myMin(15, 5));
-//**push */
-let numbers = [1, 2, 3, 4];
-numbers[numbers.length] = 5;
-console.log(numbers);
+// //** to string*/
+// function numberToString(number) {
+//   return number + "";
+// }
+// console.log(numberToString(400));
+// //**to fixed  */
+// function myFixedTO(num, afterPoint) {
+//   return num.toFixed(afterPoint);
+// }
+// console.log(myFixedTO(55.7677, 3));
+// //**math.max*/
+// function myMax(a, w) {
+//   return a > w ? a : w;
+// }
+// console.log(myMax(16, 89));
+// //**Math.min() */
+// function myMin(s, t) {
+//   return s < t ? s : t;
+// }
+// console.log(myMin(15, 5));
+// //**push */
+// let numbers = [1, 2, 3, 4];
+// numbers[numbers.length] = 5;
+// console.log(numbers);
 
-// let number = [1, 2, 3, 4];
-// number [number.length=number.length]-1 ;
-// console.log(number);
-// let num =[1,2,3,4,5,6]
-// function removeNumber(array,index){
-// for (let i = 0; i < array.length; i++) {
-//   if(array[i]===index)
+// // let number = [1, 2, 3, 4];
+// // number [number.length=number.length]-1 ;
+// // console.log(number);
+// // let num =[1,2,3,4,5,6]
+// // function removeNumber(array,index){
+// // for (let i = 0; i < array.length; i++) {
+// //   if(array[i]===index)
 
   
 
-// }
+// // }
 
+
+
+// /**
+//  * 
+//  * @param {...string} strings 
+//  * @returns {string} 
+//  */
+
+//  function concat ( ...Strings){
+//   let result ="";
+//   for( let i =0; i < Strings.length;i++){
+//     result+=Strings[i];
+//   }
+//   return result;
+//  }
+
+//  console.log(concat ("wedad" ,"osama", "elkammash"));
 
 
 /**
- * 
- * @param {...string} strings - 
+
+ * @param {string} String 
  * @returns {string} 
+ *
+ * @example
+//   النتيجة: "wedad"
+ * console.log(trimString("     wedad     "));
  */
 
- function concat ( ...Strings){
-  let result ="";
-  for( let i =0; i < Strings.length;i++){
-    result+=Strings[i];
+ function trimString(string){
+  let newString ="";
+  for( let i =0; i<string.length; i++){
+    if(string[i] !== " "){
+      newString+= string[i];
+    }
+ 
   }
-  return result;
+  return newString
  }
-
- console.log(concat ("wedad" ,"osama", "elkammash"))
+ console.log(trimString(      "wedad"      ))
