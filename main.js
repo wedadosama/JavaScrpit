@@ -481,40 +481,40 @@ Math.tan(Math.toRadians(60));
 
 //  console.log(concat ("wedad" ,"osama", "elkammash"));
 
-/**
+// /**
 
- * @param {string} String 
- * @returns {string} 
- *
- * @example
-//   النتيجة: "wedad"
- * console.log(trimString("     wedad     "));
- */
+//  * @param {string} String 
+//  * @returns {string} 
+//  *
+//  * @example
+// //   النتيجة: "wedad"
+//  * console.log(trimString("     wedad     "));
+//  */
 
-function trimString(string) {
-  let newString = "";
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] !== " ") {
-      newString += string[i];
-    }
-  }
-  return newString;
-}
-console.log(trimString("wedad      "));
+// function trimString(string) {
+//   let newString = "";
+//   for (let i = 0; i < string.length; i++) {
+//     if (string[i] !== " ") {
+//       newString += string[i];
+//     }
+//   }
+//   return newString;
+// }
+// console.log(trimString("wedad      "));
 
-function stringTrimStart(string) {
-  let newString = "";
-  let isTrue = false;
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === " " && isTrue === false) {
-      continue;
-    } else {
-      newString += string[i];
-    }
-  }
-  return newString;
-}
-console.log(stringTrimStart("         Hello        "));
+// function stringTrimStart(string) {
+//   let newString = "";
+//   let isTrue = false;
+//   for (let i = 0; i < string.length; i++) {
+//     if (string[i] === " " && isTrue === false) {
+//       continue;
+//     } else {
+//       newString += string[i];
+//     }
+//   }
+//   return newString;
+// }
+// console.log(stringTrimStart("         Hello        "));
 
 function stringTrimEnd(string) {
   let lastIndex = string.length - 1;
