@@ -694,3 +694,6 @@ newDiv.appendChild(textNode);
  let comment = document.createComment("This is a comment");
  document.body.appendChild(comment);
  
+ // 10. document.links
+ console.log(document.links);
+ 
