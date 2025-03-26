@@ -680,5 +680,9 @@ Math.tan(Math.toRadians(60));
  
  // 5. document.querySelectorAll
  console.log(document.querySelectorAll("paragraph"));
- 
+
+ // 6. document.createElement
+ let newDiv = document.createElement("div");
+ newDiv.innerText = "wedad osama elkammash";
+ document.body.appendChild(newDiv);
  
