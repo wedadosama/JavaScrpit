@@ -699,5 +699,7 @@ newDiv.appendChild(textNode);
  
  // 11. document.forms
  console.log(document.forms);
+  // 12. document.images
+  console.log(document.images);
  
  
