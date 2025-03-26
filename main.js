@@ -710,4 +710,7 @@ newDiv.setAttribute("title", "main");
  
  // 18. Element.classList.add
  newDiv.classList.add("toggel");
+ // 19. Element.classList.remove
+ newDiv.classList.remove("toggel");
+ 
  
