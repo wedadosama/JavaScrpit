@@ -701,3 +701,6 @@ console.log(document.images);
 console.log(newDiv.getAttribute("title"));
 // 14. Element.setAttribute
 newDiv.setAttribute("title", "main");
+ // 15. Element.innerHTML
+ newDiv.innerHTML = "<strong>wedad</strong>";
+ 
