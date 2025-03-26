@@ -678,3 +678,7 @@ Math.tan(Math.toRadians(60));
  // 4. document.querySelector
  console.log(document.querySelector("paragraph"));
  
+ // 5. document.querySelectorAll
+ console.log(document.querySelectorAll("paragraph"));
+ 
+ 
