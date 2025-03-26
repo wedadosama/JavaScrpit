@@ -685,22 +685,19 @@ document.body.appendChild(newDiv);
 let Attribute = document.createAttribute("title");
 Attribute.value = "main-title";
 newDiv.setAttributeNode(Attribute);
-
 // 8. document.createTextNode
 let textNode = document.createTextNode("This is a text node");
 newDiv.appendChild(textNode);
-
 // 9. document.createComment
 let comment = document.createComment("This is a comment");
 document.body.appendChild(comment);
-
 // 10. document.links
 console.log(document.links);
-
 // 11. document.forms
 console.log(document.forms);
 // 12. document.images
 console.log(document.images);
-
 // 13. Element.getAttribute
 console.log(newDiv.getAttribute("title"));
+// 14. Element.setAttribute
+newDiv.setAttribute("title", "main");
