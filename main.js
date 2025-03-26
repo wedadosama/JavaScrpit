@@ -649,6 +649,7 @@ Math.tan(Math.toRadians(60));
 //     } else if (string[i] == "z") {
 //       newString += "Z";
 //     } else {
+//     } else {
 //       newString += string[i];
 //     }
 //   }
@@ -664,16 +665,19 @@ Math.tan(Math.toRadians(60));
 // let lastString = arr[arr.length - 1];
 // arr.length--;
 // console.log(arr);
- 
-
-
 
 //** shift */
-let array  = [10, 20, 30, 40];
-let firstString =array[0]
-for(i=0; i< array.length-1; i++){
-  array[i]=array[i +1]
+// let array  = [10, 20, 30, 40];
+// let firstString =array[0]
+// for(i=0; i< array.length-1; i++){
+//   array[i]=array[i +1]
 
-}
-array.length--
-console.log(array)
+// }
+// array.length--
+// console.log(array)
+
+
+
+ // 1. document.getElementById
+ console.log(document.getElementById("title"));
+        
