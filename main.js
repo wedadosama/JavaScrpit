@@ -689,3 +689,8 @@ newDiv.setAttributeNode(Attribute);
 // 8. document.createTextNode
 let textNode = document.createTextNode("This is a text node");
 newDiv.appendChild(textNode);
+
+ // 9. document.createComment
+ let comment = document.createComment("This is a comment");
+ document.body.appendChild(comment);
+ 
