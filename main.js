@@ -708,3 +708,6 @@ newDiv.setAttribute("title", "main");
  // 17. Element.className
  newDiv.className = "test";
  
+ // 18. Element.classList.add
+ newDiv.classList.add("toggel");
+ 
