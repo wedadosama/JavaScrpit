@@ -703,4 +703,6 @@ console.log(newDiv.getAttribute("title"));
 newDiv.setAttribute("title", "main");
  // 15. Element.innerHTML
  newDiv.innerHTML = "<strong>wedad</strong>";
+ // 16. Element.innerText
+ newDiv.innerText = "hello Everybody";
  
