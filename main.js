@@ -671,4 +671,6 @@ Math.tan(Math.toRadians(60));
 
  // 1. document.getElementById
  console.log(document.getElementById("title"));
-        
+ // 2. document.getElementsByTagName
+ console.log(document.getElementsByTagName("p"));
+ 
