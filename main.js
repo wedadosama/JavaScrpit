@@ -666,26 +666,26 @@ Math.tan(Math.toRadians(60));
 // arr.length--;
 // console.log(arr);
 
+// 1. document.getElementById
+console.log(document.getElementById("title"));
+// 2. document.getElementsByTagName
+console.log(document.getElementsByTagName("p"));
+// 3. document.getElementsByClassName
+console.log(document.getElementsByClassName("paragraph"));
+// 4. document.querySelector
+console.log(document.querySelector("paragraph"));
 
+// 5. document.querySelectorAll
+console.log(document.querySelectorAll("paragraph"));
+// 6. document.createElement
+let newDiv = document.createElement("div");
+newDiv.innerText = "wedad osama elkammash";
+document.body.appendChild(newDiv);
+// 7. document.createAttribute
+let Attribute = document.createAttribute("title");
+Attribute.value = "main-title";
+newDiv.setAttributeNode(Attribute);
 
-
- // 1. document.getElementById
- console.log(document.getElementById("title"));
- // 2. document.getElementsByTagName
- console.log(document.getElementsByTagName("p"));
-  // 3. document.getElementsByClassName
-  console.log(document.getElementsByClassName("paragraph"));
- // 4. document.querySelector
- console.log(document.querySelector("paragraph"));
- 
- // 5. document.querySelectorAll
- console.log(document.querySelectorAll("paragraph"));
- // 6. document.createElement
- let newDiv = document.createElement("div");
- newDiv.innerText = "wedad osama elkammash";
- document.body.appendChild(newDiv);
-  // 7. document.createAttribute
-   let Attribute  = document.createAttribute("title");
-   Attribute.value = "main-title";
-  newDiv.setAttributeNode(Attribute);
-  
+// 8. document.createTextNode
+let textNode = document.createTextNode("This is a text node");
+newDiv.appendChild(textNode);
