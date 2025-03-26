@@ -705,4 +705,6 @@ newDiv.setAttribute("title", "main");
  newDiv.innerHTML = "<strong>wedad</strong>";
  // 16. Element.innerText
  newDiv.innerText = "hello Everybody";
+ // 17. Element.className
+ newDiv.className = "test";
  
