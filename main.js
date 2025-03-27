@@ -673,18 +673,18 @@ console.log(document.getElementsByTagName("p"));
 // 3. document.getElementsByClassName
 console.log(document.getElementsByClassName("paragraph"));
 // 4. document.querySelector
-console.log(document.querySelector("paragraph"));
+console.log(document.querySelector(".paragraph"));
 
 // 5. document.querySelectorAll
-console.log(document.querySelectorAll("paragraph"));
+console.log(document.querySelectorAll(".paragraph"));
 // 6. document.createElement
 let newDiv = document.createElement("div");
 newDiv.innerText = "wedad osama elkammash";
 document.body.appendChild(newDiv);
 // 7. document.createAttribute
-let Attribute = document.createAttribute("title");
-Attribute.value = "main-title";
-newDiv.setAttributeNode(Attribute);
+let attribute = document.createAttribute("title");
+attribute.value = "main-title";
+newDiv.setAttributeNode(attribute);
 // 8. document.createTextNode
 let textNode = document.createTextNode("This is a text node");
 newDiv.appendChild(textNode);
@@ -712,5 +712,6 @@ newDiv.setAttribute("title", "main");
  newDiv.classList.add("toggel");
  // 19. Element.classList.remove
  newDiv.classList.remove("toggel");
- 
+//20.Element.classList.contains
+ console.log(newDiv.classList.contains("toggel"));
  
