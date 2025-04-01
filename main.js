@@ -666,52 +666,60 @@ Math.tan(Math.toRadians(60));
 // arr.length--;
 // console.log(arr);
 
-// 1. document.getElementById
-console.log(document.getElementById("title"));
-// 2. document.getElementsByTagName
-console.log(document.getElementsByTagName("p"));
-// 3. document.getElementsByClassName
-console.log(document.getElementsByClassName("paragraph"));
-// 4. document.querySelector
-console.log(document.querySelector(".paragraph"));
+// // 1. document.getElementById
+// console.log(document.getElementById("title"));
+// // 2. document.getElementsByTagName
+// console.log(document.getElementsByTagName("p"));
+// // 3. document.getElementsByClassName
+// console.log(document.getElementsByClassName("paragraph"));
+// // 4. document.querySelector
+// console.log(document.querySelector(".paragraph"));
 
-// 5. document.querySelectorAll
-console.log(document.querySelectorAll(".paragraph"));
-// 6. document.createElement
-let newDiv = document.createElement("div");
-newDiv.innerText = "wedad osama elkammash";
-document.body.appendChild(newDiv);
-// 7. document.createAttribute
-let attribute = document.createAttribute("title");
-attribute.value = "main-title";
-newDiv.setAttributeNode(attribute);
-// 8. document.createTextNode
-let textNode = document.createTextNode("This is a text node");
-newDiv.appendChild(textNode);
-// 9. document.createComment
-let comment = document.createComment("This is a comment");
-document.body.appendChild(comment);
-// 10. document.links
-console.log(document.links);
-// 11. document.forms
-console.log(document.forms);
-// 12. document.images
-console.log(document.images);
-// 13. Element.getAttribute
-console.log(newDiv.getAttribute("title"));
-// 14. Element.setAttribute
-newDiv.setAttribute("title", "main");
- // 15. Element.innerHTML
- newDiv.innerHTML = "<strong>wedad</strong>";
- // 16. Element.innerText
- newDiv.innerText = "hello Everybody";
- // 17. Element.className
- newDiv.className = "test";
+// // 5. document.querySelectorAll
+// console.log(document.querySelectorAll(".paragraph"));
+// // 6. document.createElement
+// let newDiv = document.createElement("div");
+// newDiv.innerText = "wedad osama elkammash";
+// document.body.appendChild(newDiv);
+// // 7. document.createAttribute
+// let attribute = document.createAttribute("title");
+// attribute.value = "main-title";
+// newDiv.setAttributeNode(attribute);
+// // 8. document.createTextNode
+// let textNode = document.createTextNode("This is a text node");
+// newDiv.appendChild(textNode);
+// // 9. document.createComment
+// let comment = document.createComment("This is a comment");
+// document.body.appendChild(comment);
+// // 10. document.links
+// console.log(document.links);
+// // 11. document.forms
+// console.log(document.forms);
+// // 12. document.images
+// console.log(document.images);
+// // 13. Element.getAttribute
+// console.log(newDiv.getAttribute("title"));
+// // 14. Element.setAttribute
+// newDiv.setAttribute("title", "main");
+//  // 15. Element.innerHTML
+//  newDiv.innerHTML = "<strong>wedad</strong>";
+//  // 16. Element.innerText
+//  newDiv.innerText = "hello Everybody";
+//  // 17. Element.className
+//  newDiv.className = "test";
  
- // 18. Element.classList.add
- newDiv.classList.add("toggel");
- // 19. Element.classList.remove
- newDiv.classList.remove("toggel");
-//20.Element.classList.contains
- console.log(newDiv.classList.contains("toggel"));
+//  // 18. Element.classList.add
+//  newDiv.classList.add("toggel");
+//  // 19. Element.classList.remove
+//  newDiv.classList.remove("toggel");
+// //20.Element.classList.contains
+//  console.log(newDiv.classList.contains("toggel"));
  
+let counter = 0;
+document.getElementById("btn_counter").addEventListener("click", function () {
+  document.getElementById("counter").innerText = counter++;
+});
+
+document.getElementById("btn_mins").addEventListener("click", function () {
+  document.getElementById("counter").innerText = counter--;
+});
