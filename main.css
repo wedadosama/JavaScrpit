@@ -1,5 +1,22 @@
-img{
+ /* img{
   height: 300px;
   width: 300px;
+color: #040954;
+}  */
+
+button{
+  height:50px ;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #ababb2;
+  font-size: larger;
+  font-weight: bold;
+  
 
 }
+button:hover{
+  background-color: #1c1d1a;
+}
+
+
+

@@ -57,113 +57,113 @@
 //   console.log("Please Try Again!");
 // }
 
-let days = "Sunday";
-switch (days) {
-  case "Sunday":
-    console.log("Sunday");
-    break;
-  case "Monday":
-    console.log("Monday");
-    break;
-  case "Tuesday":
-    console.log("Tuseday");
-    break;
-  case "Wednesday":
-    console.log("Wednesday");
-    break;
-  case "Thursday":
-    console.log("Thursday");
-    break;
-  case "Friday":
-    console.log("Friday");
-    break;
-  case "Saturday":
-    console.log("Saturday");
-    break;
-  default:
-    console.timeLog("Not Righteous");
-}
+// let days = "Sunday";
+// switch (days) {
+//   case "Sunday":
+//     console.log("Sunday");
+//     break;
+//   case "Monday":
+//     console.log("Monday");
+//     break;
+//   case "Tuesday":
+//     console.log("Tuseday");
+//     break;
+//   case "Wednesday":
+//     console.log("Wednesday");
+//     break;
+//   case "Thursday":
+//     console.log("Thursday");
+//     break;
+//   case "Friday":
+//     console.log("Friday");
+//     break;
+//   case "Saturday":
+//     console.log("Saturday");
+//     break;
+//   default:
+//     console.timeLog("Not Righteous");
+// }
 
-let adcCompany;
-let employees;
+// let adcCompany;
+// let employees;
 
-let employee1 = {
-  id: 103,
-  firstName: "Wedad",
-  lastName: "Osama",
-  age: 24,
-  gender: "Fale",
-  position: "Software Engineer",
-  department: "IT",
-  salary: 15000,
-  address: "10 st cairo",
-  phone: "010437878756576",
-  isPermanent: true,
-  isManager: false,
-  email: " welkamash@abccompany.com",
-  password: "password1234",
-  hireDate: "2020-05-15",
-  employeeID: "EMP101",
-};
-let employee2 = {
-  id: 104,
-  firstName: "Norhan",
-  lastName: "Abod",
-  age: 22,
-  gender: "Fmale",
-  position: "Software Engineer",
-  department: "IT",
-  salary: 20000,
-  address: "20 st cairo",
-  phone: "01012345678",
-  isPermanent: true,
-  isManager: false,
-  email: " norhanabod@abccompany.com",
-  password: "password1567",
-  hireDate: "2023-5-15",
-  employeeID: "EMP102",
-};
-let employee3 = {
-  id: 101,
-  firstName: "Dina",
-  lastName: "Ahemd",
-  age: 21,
-  gender: "Fmale",
-  position: "Software Engineer",
-  department: "IT",
-  salary: 25000,
-  address: "10 st cairo",
-  phone: "010876545445",
-  isPermanent: true,
-  isManager: false,
-  email: " dinaahmed@abccompany.com",
-  password: "password789",
-  hireDate: "2020-1-1",
-  employeeID: "EMP103",
-};
-console.log(employee1.id);
+// let employee1 = {
+//   id: 103,
+//   firstName: "Wedad",
+//   lastName: "Osama",
+//   age: 24,
+//   gender: "Fale",
+//   position: "Software Engineer",
+//   department: "IT",
+//   salary: 15000,
+//   address: "10 st cairo",
+//   phone: "010437878756576",
+//   isPermanent: true,
+//   isManager: false,
+//   email: " welkamash@abccompany.com",
+//   password: "password1234",
+//   hireDate: "2020-05-15",
+//   employeeID: "EMP101",
+// };
+// let employee2 = {
+//   id: 104,
+//   firstName: "Norhan",
+//   lastName: "Abod",
+//   age: 22,
+//   gender: "Fmale",
+//   position: "Software Engineer",
+//   department: "IT",
+//   salary: 20000,
+//   address: "20 st cairo",
+//   phone: "01012345678",
+//   isPermanent: true,
+//   isManager: false,
+//   email: " norhanabod@abccompany.com",
+//   password: "password1567",
+//   hireDate: "2023-5-15",
+//   employeeID: "EMP102",
+// };
+// let employee3 = {
+//   id: 101,
+//   firstName: "Dina",
+//   lastName: "Ahemd",
+//   age: 21,
+//   gender: "Fmale",
+//   position: "Software Engineer",
+//   department: "IT",
+//   salary: 25000,
+//   address: "10 st cairo",
+//   phone: "010876545445",
+//   isPermanent: true,
+//   isManager: false,
+//   email: " dinaahmed@abccompany.com",
+//   password: "password789",
+//   hireDate: "2020-1-1",
+//   employeeID: "EMP103",
+// };
+// console.log(employee1.id);
 
-/*Math.abs(-25); ايجاد القيمه المطلقه */
-console.log(Math.abs(-25));
-/*Math.ceil(3.7); تقريب الرقم لي اعلي*/
-console.log(Math.ceil(3.7));
-/*Math.floor(9.9);  تقريب الرقم لي اسفل*/
-console.log(Math.floor(9.9));
-/* Math.round(6.5); تقريب الرقم لاقرب عدد صحيح*/
-console.log(Math.round(6.5));
-/*Math.sqrt(36); حساب الجذر التربيعي */
-console.log(Math.sqrt(36));
-/*Math.pow(5, 3); حساب القوه (الاس)*/
-console.log(Math.pow(5, 3));
-/*Math.random(); */
-console.log(Math.random());
-/**Math.max(15, 25);
-Math.min(10, 5);
-ايجاد القيمه الكبري والصغري */
-console.log(Math.max(15, 25));
-console.log(Math.min(10, 5));
-/**Math.log(100); 9.	حساب اللوغاريتم الطبيعي */
-console.log(Math.log(100));
+// /*Math.abs(-25); ايجاد القيمه المطلقه */
+// console.log(Math.abs(-25));
+// /*Math.ceil(3.7); تقريب الرقم لي اعلي*/
+// console.log(Math.ceil(3.7));
+// /*Math.floor(9.9);  تقريب الرقم لي اسفل*/
+// console.log(Math.floor(9.9));
+// /* Math.round(6.5); تقريب الرقم لاقرب عدد صحيح*/
+// console.log(Math.round(6.5));
+// /*Math.sqrt(36); حساب الجذر التربيعي */
+// console.log(Math.sqrt(36));
+// /*Math.pow(5, 3); حساب القوه (الاس)*/
+// console.log(Math.pow(5, 3));
+// /*Math.random(); */
+// console.log(Math.random());
+// /**Math.max(15, 25);
+// Math.min(10, 5);
+// ايجاد القيمه الكبري والصغري */
+// console.log(Math.max(15, 25));
+// console.log(Math.min(10, 5));
+// /**Math.log(100); 9.	حساب اللوغاريتم الطبيعي */
+// console.log(Math.log(100));
 /*Math.sin(Math.toRadians(90));
 Math.cos(Math.toRadians(45));
 Math.tan(Math.toRadians(60));
@@ -707,19 +707,30 @@ Math.tan(Math.toRadians(60));
 //  newDiv.innerText = "hello Everybody";
 //  // 17. Element.className
 //  newDiv.className = "test";
- 
+
 //  // 18. Element.classList.add
 //  newDiv.classList.add("toggel");
 //  // 19. Element.classList.remove
 //  newDiv.classList.remove("toggel");
 // //20.Element.classList.contains
 //  console.log(newDiv.classList.contains("toggel"));
- 
-let counter = 0;
-document.getElementById("btn_counter").addEventListener("click", function () {
-  document.getElementById("counter").innerText = counter++;
-});
 
-document.getElementById("btn_mins").addEventListener("click", function () {
-  document.getElementById("counter").innerText = counter--;
-});
+// let counter = 0;
+// document.getElementById("btn_counter").addEventListener("click", function () {
+//   document.getElementById("counter").innerText = counter++;
+// });
+
+// document.getElementById("btn_mins").addEventListener("click", function () {
+//   document.getElementById("counter").innerText = counter--;
+// });
+
+let color = "#c90b0b";
+function changeColor() {
+  if (color === "#c90b0b") {
+    document.body.style.backgroundColor = "#040954";
+    color = "#040954";
+  } else {
+    document.body.style.backgroundColor = "#c90b0b";
+    color = "#c90b0b";
+  }
+}
